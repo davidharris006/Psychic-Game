@@ -1,0 +1,15 @@
+body {
+    background-image: url("../Images/psychics-1026092_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div-boxes {
+    border: 2px solid black;
+    text-align: center;
+    width: 500px;
+    position: center;
+    margin: 410px;
+    color: purple;
+    border-radius: 25px;
+    
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="./Assets/Css/main.css">
+  
+    <!-- <script src="main.js"></script> -->
+</head>.
+
+<body>
+    <div class="container-box">
+        <div class="div-boxes">
+            <p id="directions-text">
+                <h2>Press any letter to try to guess the letter I picked</h2>
+            </p>
+            <p id="userguesses-text"></p>
+            <p id="allguesses-text"></p>
+            <p id="guesses-text"></p>
+        </div>
+    </div>
+    <!-- <script type="text/javascript">
+        var userGuessarr = [];
+        var allLetters = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m"];
+        // var computerGuess = allLetters[Math.floor(Math.random() * allLetters.length)];
+        var guesses = 15;
+        var userGuessesText = document.getElementById("userguesses-text");
+        var allGuessesText = document.getElementById("allguesses-text");
+        var guessesText = document.getElementById("guesses-text");
+        var computerGuess = allLetters[Math.floor(Math.random() * allLetters.length)];
+        function resetFunction(event) {
+            guesses = 15;
+            userGuessarr = [];
+
+        }
+        document.onkeyup = function (event) {
+
+            // var computerGuess = allLetters[Math.floor(Math.random() * allLetters.length)];
+
+
+
+            var userGuess = event.key;
+            userGuessarr.push(userGuess);
+
+            if (userGuess === computerGuess) {
+                alert('You Win!!! The letter was:' + userGuess);
+                resetFunction();
+            }
+            else if (userGuess !== computerGuess) {
+                alert('Not right Try agian')
+                guesses--;
+            }
+            else if (guesses = 0) {
+                alert('You Lose!!!')
+                resetFunction();
+            }
+        
+
+        userGuessesText.textContent = "User Guess: " + userGuess;
+        allGuessesText.textContent = "Your Guesses: " + userGuessarr;
+        guessesText.textContent = "Guess Left: " + guesses;
+        
+        };
+
+
+// use 0 and to 15 and array of guesses to compare guesses to computers guess.
+// array[i] would be the guess compared to computers guess and once i gets to 15 turns off.
+
+
+
+    </script> -->
+
+
+
+
+    <script src="./Assets/Javascript/main.js"></script>
+</body>
+
+</html>
